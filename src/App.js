@@ -1,12 +1,14 @@
 import React from 'react';
 import {Row,Col,Container} from 'react-bootstrap'
 import './App.css';
+import thug from './images/thug.png'
 
 function App() {
   return (
     <div className='page'> 
       <Container>
         <div id="stars"></div>
+        <div id='stars2'></div>
         <Row>
           <Col sm={12} md={12} lg={12}>
             <h1 className='title'> A poem by Damon J. Nunez </h1>
@@ -57,7 +59,16 @@ Find healing and connection by "thugging that shit out."
 Male loneliness can be conquered when we "thug that shit out."
                         </strong>
                     </p>
+                    <img className='col2Image' src={thug} alt=''/>
+                    <p className='specialParagraph'><strong>
+                      Yes. Yes it is.
+                </strong> </p>
 
+                    </p>
+                    <p className='paragraph'>
+                      <strong>
+                        Thank you for reading. Stay Strong Gentleman. Until Next Time.
+                      </strong>
                     </p>
                 </div>
                 </Col>
